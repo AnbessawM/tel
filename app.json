@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "tel",
+    "slug": "tel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anbessawm.tel"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anbessawm.tel"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "140a5d2f-dd0a-48f0-9027-b83e41bf9651"
+      }
+    },
+    "owner": "anbessawm",
+    "updates": {
+      "url": "https://u.expo.dev/140a5d2f-dd0a-48f0-9027-b83e41bf9651"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
